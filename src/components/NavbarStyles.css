@@ -1,0 +1,71 @@
+/* header */
+.header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    z-index: 2;
+}
+.header-bg {
+    background: rgba(0, 0, 0, 0.8);
+    transition: all 0.5s ease;
+}
+
+
+/* Navbar */
+.nav-menu {
+    display: flex;
+    flex-direction: row;    
+}
+.nav-menu li {
+    list-style: none;
+    margin: 0 1rem;
+}
+.nav-menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.nav-menu li a:hover {
+    color: yellow;
+}
+.hamburger {
+    display: none;
+}
+@media screen and (max-width: 900px) {
+    .nav-menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: -3;
+        transition: all 0.5s ease;
+        background: black;
+    }
+    .nav-menu li {
+        margin: 1rem 0;
+    }
+    .nav-menu li a {
+        font-size: 2rem;
+    }
+    .nav-menu.active {
+        left: 0;
+        z-index: 1;
+    }
+    .hamburger {
+        display: initial;
+        cursor: pointer;
+        font-size: 20px;
+        z-index: 3;
+        color: white;
+    }
+}
