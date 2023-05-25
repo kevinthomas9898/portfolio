@@ -32,7 +32,7 @@ const Footer = () => {
                     <FaGithub className="icon"/>
                 </div>
             </div>
-            <div class="bottom-footer">
+            <div className="bottom-footer">
                 <p className='moving-text'>All Rights Reserved &copy; 2023</p>
                 <p className='moving-text'> Designed By <span> Kevin Thomas</span></p>
             </div>

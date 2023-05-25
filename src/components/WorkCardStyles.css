@@ -1,0 +1,60 @@
+.work-container {
+    height: 100%;
+    padding: 2rem 0;
+}
+
+.project-heading {
+    text-align: center;
+    margin: 0 0 2rem 0;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    max-width: 1140px;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(19, 19, 19, 0.8);
+    padding: 1.2rem 1rem;
+    transition: all 0.3s ease-in-out;
+}
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+.project-card > *:not(:last-child) {
+    margin: 1rem 0;
+  }
+.project-card img {
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.project-buttons .btn{
+    max-width: 8rem;
+    margin: 1rem;
+}
+.project-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0.5rem;
+}
+
+@media screen and (max-width: 800px) {
+    .project-container {
+        max-width: 90%;
+        margin: auto;
+        justify-content: center;
+        grid-template-columns: 1fr;
+    }
+}

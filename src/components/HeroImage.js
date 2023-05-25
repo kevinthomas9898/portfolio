@@ -13,7 +13,7 @@ const HeroImage = () => {
           <p>HI, I'M A FREELANCER.</p>
           <h1>REACT DEVELOPER</h1>
           <div>
-            <Link to="/projects" className='btn'>Projects</Link>
+            <Link to="/project" className='btn'>Projects</Link>
             <Link to="/contact" className='btn btn-light'>Contact</Link>
           </div>
         </div>
