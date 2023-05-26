@@ -1,0 +1,10 @@
+export { default as AboutContent } from './AboutContent';
+export { default as Footer } from './Footer';
+export { default as Form } from './Form';
+export { default as Hero2 } from './Hero2';
+export { default as HeroImage } from './HeroImage';
+export { default as Navbar } from './Navbar';
+export { default as PricingCard } from './PricingCard';
+export { default as Work } from './Work';
+export { default as WorkCard } from './WorkCard';
+export { default as WorkCardData } from './WorkCardData';

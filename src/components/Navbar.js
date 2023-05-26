@@ -7,17 +7,20 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
+  // this is for the hamburger menu
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+  
+  // this is for the navbar to hide when scrolling down
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
-
-      setIsVisible(prevScrollPos > currentScrollPos);
-
+      
+      setIsVisible(prevScrollPos >= currentScrollPos);
+      
       setPrevScrollPos(currentScrollPos);
     };
 
