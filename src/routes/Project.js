@@ -2,7 +2,6 @@ import React from "react";
 
 import { Navbar, Footer, Hero2, Work } from "../components";
 
-
 const Project = () => {
   return (
     <>

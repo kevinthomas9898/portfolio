@@ -1,10 +1,6 @@
 import React, { useEffect } from 'react';
 import { Route, Routes, useLocation } from "react-router-dom";
 
-// import Home from './routes/Home';
-// import About from './routes/About';
-// import Project from './routes/Project';
-// import Contact from './routes/Contact';
 import { Home, About, Project, Contact } from './routes';
 
 

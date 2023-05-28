@@ -1,8 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import HeroImage from '../components/HeroImage'
-import Footer from '../components/Footer'
-import PricingCard from '../components/PricingCard'
+import { Navbar, Footer, HeroImage, PricingCard } from "../components";
 
 const Home = () => {
 

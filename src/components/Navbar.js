@@ -9,7 +9,11 @@ import { FaTimes } from "react-icons/fa";
 const Navbar = () => {
   // this is for the hamburger menu
   const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
+  const handleClick = () => {
+    return (
+      setClick(!click)
+    )
+  };
   
   // this is for the navbar to hide when scrolling down
   const [prevScrollPos, setPrevScrollPos] = useState(0);
