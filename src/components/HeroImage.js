@@ -7,7 +7,7 @@ const HeroImage = () => {
   return (
     <div className="hero">
         <div className="mask">
-          <img src={IntroImage} alt="Intro Image" className="into-img" />
+          <img src={IntroImage} alt="Intro" className="into-img" />
         </div>
         <div className="content">
           <p>HI, I'M A FREELANCER.</p>
