@@ -1,0 +1,23 @@
+[
+  {
+    "imgsrc": "../assets/project1.png",
+    "title": "Project Title 1",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit exercitationem soluta possimus vero totam incidunt, quae ab eius nesciunt sed.",
+    "demo": "https://www.google.com",
+    "download": "https://www.google.com"
+  },
+  {
+    "imgsrc": "../assets/project2.png",
+    "title": "Project Title 2",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit exercitationem soluta possimus vero totam incidunt, quae ab eius nesciunt sed.",
+    "demo": "https://www.google.com",
+    "download": "https://www.google.com"
+  },
+  {
+    "imgsrc": "../assets/project3.png",
+    "title": "Project Title 3",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit exercitationem soluta possimus vero totam incidunt, quae ab eius nesciunt sed.",
+    "demo": "https://www.google.com",
+    "download": "https://www.google.com"
+  }
+]

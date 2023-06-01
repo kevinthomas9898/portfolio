@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './AboutContent.css'
+import './AboutContentStyles.css'
 import React2 from '../assets/react2.webp'
 import React1 from '../assets/react1.jpg'
 

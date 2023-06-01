@@ -1,7 +1,7 @@
 import React from 'react'
 import './WorkCardStyles.css'
 import WorkCard from './WorkCard'
-import WorkCardData from './WorkCardData'
+import WorkCardData from './WorkCardData.json'
 
 const Work = () => {
   return (
