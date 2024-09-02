@@ -61,6 +61,9 @@
         left: 0;
         z-index: 1;
     }
+    .nav-menu a.active {
+        color: yellow;
+    }
     .hamburger {
         display: initial;
         cursor: pointer;
