@@ -5,7 +5,7 @@ import project4 from '../assets/project4.png';
 
 const WorkCardData = [
   {
-    imgsrc: project1,
+    imgsrc: project2,
     title: "Learnient LMS",
     description: "Multi-tenant B2B Learning Management System featuring a custom-built drag-and-drop course builder for seamless content creation.",
     demo: "https://color-code-tools.vercel.app/",
@@ -14,7 +14,7 @@ const WorkCardData = [
     featured: true
   },
   {
-    imgsrc: project2,
+    imgsrc: project1,
     title: "Color Code Tools",
     description: "A premium developer utility web app supporting HEX, RGB, HSL conversions. Built with Next.js and deployed on Vercel.",
     demo: "https://color-code-tools.vercel.app/",
